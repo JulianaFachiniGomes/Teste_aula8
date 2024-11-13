@@ -17,6 +17,7 @@ st.slider('Selecione uma respota', 0,100)
 st.select_slider('Selecione uma resposta', options=['A', 'B', 'C'])
 st.select_slider('Selecione uma resposta', ['Bom', 'Ruim'])
 st.selectbox('Selecione uma resposta', ['Bom', 'Ruim'])
+st.selectbox('Selecione uma resposta', ['Selecione','Bom', 'Ruim'])
 
 x = st.checkbox('Sim')
 st.write(x)
