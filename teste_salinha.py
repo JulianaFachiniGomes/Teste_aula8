@@ -14,7 +14,7 @@ st.code("x=2021")
 st.latex(r''' a+a r^1+a r^2+a r^3 ''')
 
 resp = st.slider('Selecione uma respota', 0,100)
-st.text('Seu número é' +str(resp))
+st.text('Seu número é'  +str(resp))
 st.select_slider('Selecione uma resposta', options=['A', 'B', 'C'])
 st.select_slider('Selecione uma resposta', ['Bom', 'Ruim'])
 st.selectbox('Selecione uma resposta', ['Bom', 'Ruim'])
